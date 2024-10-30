@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header h3 {
+    font-size: 1.5em;
+    color: #2f95b1;
+    display: flex;
+    align-items: center;
+}
+
+.header .icon {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.confirmation-box h2 {
+    font-size: 1.8em;
+    color: #2f95b1;
+    margin-bottom: 10px;
+}
+
+.confirmation-box p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.divider {
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px dashed #2f95b1;
+}
+
+.chave-id {
+    font-weight: bold;
+    color: #2f95b1;
+    margin-bottom: 20px;
+}
+
+.id {
+    color: #267c8e;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.confirmation-image {
+    max-width: 60%;
+    height: auto;
+}
+
+.btn-go {
+    padding: 10px 30px;
+    background-color: #2f95b1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-go:hover {
+    background-color: #267c8e;
+}
